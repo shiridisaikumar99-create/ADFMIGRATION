@@ -1,0 +1,59 @@
+{
+	"name": "SqlServerTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer3",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "FinanceKey",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "DateKey",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "OrganizationKey",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "DepartmentGroupKey",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ScenarioKey",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "AccountKey",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Amount",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Date",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "FactFinance"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

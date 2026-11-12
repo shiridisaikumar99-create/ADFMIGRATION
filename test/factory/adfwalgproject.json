@@ -1,0 +1,15 @@
+{
+	"name": "adfwalgproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9e351af9-afe8-42dd-9412-13a6222b4c75",
+		"tenantId": "30c4d8c1-d8b9-4e03-a370-6d77500f87ff"
+	}
+}

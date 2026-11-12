@@ -1,0 +1,21 @@
+{
+	"name": "DS_SQL_SERVER_SP",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "SHIRIDISAI\\SQLEXPRESS",
+			"database": "AdventureWorksDW2022",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "sa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5OTIwYjAxYi00ZTgyLTRkODgtYWE2YS0wMzZjOTQ2MGE2MjciLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
