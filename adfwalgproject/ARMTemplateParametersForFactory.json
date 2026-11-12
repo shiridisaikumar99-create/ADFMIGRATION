@@ -1,0 +1,180 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfwalgproject"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage4_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage5_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage6_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage7_accountKey": {
+			"value": ""
+		},
+		"DS_ADLS_PARQUET_accountKey": {
+			"value": ""
+		},
+		"DS_SQL_SERVER_SP_password": {
+			"value": ""
+		},
+		"LS_ADLS_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_BLOB_MULTI_CSV_connectionString": {
+			"value": ""
+		},
+		"LS_CSV_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_CSV_TRIGGER_SCH_accountKey": {
+			"value": ""
+		},
+		"LS_MULTIPLE_CSV_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_PARQUET_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_PARQUET_ADLS_SCH_accountKey": {
+			"value": ""
+		},
+		"LS_PL_BLOB_CSV_connectionString": {
+			"value": ""
+		},
+		"LS_SQL_SERVER_password": {
+			"value": ""
+		},
+		"LS_SQL_adlsgen2_accountKey": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"SqlServer2_password": {
+			"value": ""
+		},
+		"SqlServer3_password": {
+			"value": ""
+		},
+		"SqlServer4_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://sawalgadlsgen2.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://sawalgadlsgen2.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://sawalgadlsgen2.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage4_properties_typeProperties_url": {
+			"value": "https://sawalgadlsgen2.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage5_properties_typeProperties_url": {
+			"value": "https://sawalgadlsgen2.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage6_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvtriggersch.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage7_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvouttriggersch.dfs.core.windows.net/"
+		},
+		"DS_ADLS_PARQUET_properties_typeProperties_url": {
+			"value": "https://sawalgadlsgen2.dfs.core.windows.net/"
+		},
+		"DS_SQL_SERVER_SP_properties_typeProperties_server": {
+			"value": "SHIRIDISAI\\SQLEXPRESS"
+		},
+		"DS_SQL_SERVER_SP_properties_typeProperties_database": {
+			"value": "AdventureWorksDW2022"
+		},
+		"DS_SQL_SERVER_SP_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_ADLS_PARQUET_properties_typeProperties_url": {
+			"value": "https://sawalgadlsgen2.dfs.core.windows.net/"
+		},
+		"LS_CSV_ADLS_properties_typeProperties_url": {
+			"value": "https://sawalgadlsgen2.dfs.core.windows.net/"
+		},
+		"LS_CSV_TRIGGER_SCH_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvtriggersch.dfs.core.windows.net/"
+		},
+		"LS_MULTIPLE_CSV_ADLS_properties_typeProperties_url": {
+			"value": "https://sawalgadlsgen2.dfs.core.windows.net/"
+		},
+		"LS_PARQUET_ADLS_properties_typeProperties_url": {
+			"value": "https://sawalgadlsgen2.dfs.core.windows.net/"
+		},
+		"LS_PARQUET_ADLS_SCH_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvouttriggersch.dfs.core.windows.net/"
+		},
+		"LS_REST_API_properties_typeProperties_url": {
+			"value": "https://retoolapi.dev/5yDVOt/data"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_server": {
+			"value": "SHIRIDISAI\\SQLEXPRESS"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_database": {
+			"value": "AdventureWorksDW2022"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQL_adlsgen2_properties_typeProperties_url": {
+			"value": "https://sawalgadlsgen2.dfs.core.windows.net/"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "SHIRIDISAI\\SQLEXPRESS"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "AdventureWorksDW2022"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"SqlServer2_properties_typeProperties_server": {
+			"value": "SHIRIDISAI\\SQLEXPRESS"
+		},
+		"SqlServer2_properties_typeProperties_database": {
+			"value": "AdventureWorksDW2022"
+		},
+		"SqlServer2_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"SqlServer3_properties_typeProperties_server": {
+			"value": "SHIRIDISAI\\SQLEXPRESS"
+		},
+		"SqlServer3_properties_typeProperties_database": {
+			"value": "AdventureWorksDW2022"
+		},
+		"SqlServer3_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"SqlServer4_properties_typeProperties_server": {
+			"value": "SHIRIDISAI\\SQLEXPRESS"
+		},
+		"SqlServer4_properties_typeProperties_database": {
+			"value": "AdventureWorksDW2022"
+		},
+		"SqlServer4_properties_typeProperties_userName": {
+			"value": "sa"
+		}
+	}
+}
