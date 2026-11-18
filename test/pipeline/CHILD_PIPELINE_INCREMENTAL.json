@@ -26,13 +26,7 @@
 					},
 					"dataset": {
 						"referenceName": "DS_SQL_ADLS_MIGRATION",
-						"type": "DatasetReference",
-						"parameters": {
-							"TableName": {
-								"value": "@pipeline().parameters.TableName",
-								"type": "Expression"
-							}
-						}
+						"type": "DatasetReference"
 					},
 					"firstRowOnly": true
 				}
@@ -105,10 +99,7 @@
 							"outputs": [
 								{
 									"referenceName": "DS_SQLTABLE_PARQUET",
-									"type": "DatasetReference",
-									"parameters": {
-										"TableName": "@pipeline().parameters.TableName"
-									}
+									"type": "DatasetReference"
 								}
 							]
 						},
