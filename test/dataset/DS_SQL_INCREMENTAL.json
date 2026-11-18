@@ -1,0 +1,16 @@
+{
+	"name": "DS_SQL_INCREMENTAL",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_INCREMENTAL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "@D",
+			"table": "@data"
+		}
+	}
+}
