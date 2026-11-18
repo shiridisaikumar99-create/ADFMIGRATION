@@ -2,15 +2,15 @@
 	"name": "DS_SQL_INCREMENTAL",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_SQL_INCREMENTAL",
+			"referenceName": "LS_SQL_ADLS_MIGRATION",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "SqlServerTable",
 		"schema": [],
 		"typeProperties": {
-			"schema": "@D",
-			"table": "@data"
+			"schema": "dataset().schemaname",
+			"table": "dataset().tablename"
 		}
 	}
 }
