@@ -6,7 +6,7 @@
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
-			"TableSchema": {
+			"SchemaName": {
 				"type": "string"
 			},
 			"TableName": {
@@ -17,14 +17,8 @@
 		"type": "SqlServerTable",
 		"schema": [],
 		"typeProperties": {
-			"schema": {
-				"value": "@dataset().TableSchema",
-				"type": "Expression"
-			},
-			"table": {
-				"value": "@dataset().TableName",
-				"type": "Expression"
-			}
+			"schema": "@d",
+			"table": "@da"
 		}
 	}
 }
