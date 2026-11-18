@@ -28,10 +28,6 @@
 						"referenceName": "DS_SQL_ADLS_MIGRATION",
 						"type": "DatasetReference",
 						"parameters": {
-							"TableSchema": {
-								"value": "@pipeline().parameters.TableSchema",
-								"type": "Expression"
-							},
 							"TableName": {
 								"value": "@pipeline().parameters.TableName",
 								"type": "Expression"
