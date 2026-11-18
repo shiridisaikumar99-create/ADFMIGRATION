@@ -1,0 +1,16 @@
+{
+	"name": "DS_SQL_TABLES_INCLOAD",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_TABLES_INCLOAD",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "@da",
+			"table": "@d"
+		}
+	}
+}

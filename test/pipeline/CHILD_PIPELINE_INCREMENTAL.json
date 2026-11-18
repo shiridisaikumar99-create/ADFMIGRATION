@@ -42,7 +42,7 @@
 				}
 			},
 			{
-				"name": "If Condition1",
+				"name": "If_New_Record_exits",
 				"type": "IfCondition",
 				"dependsOn": [
 					{
@@ -60,7 +60,7 @@
 					},
 					"ifTrueActivities": [
 						{
-							"name": "Copy_SQL_FULL_INCREMENTAL",
+							"name": "COPYSQL_FULL_INCLOAD_TABLES",
 							"type": "Copy",
 							"dependsOn": [],
 							"policy": {
@@ -74,6 +74,7 @@
 							"typeProperties": {
 								"source": {
 									"type": "SqlServerSource",
+									"sqlReaderQuery": ": @concat(\n    'SELECT * FROM ',\n    pipeline().parameters.TableSchema, '.', pipeline().parameters.TableName,\n    if(\n        equals(pipeline().parameters.LastLoadValue, null),\n        '', \n        concat(\n            ' WHERE ', pipeline().parameters.WatermarkColumn,\n            ' > ''', pipeline().parameters.LastLoadValue, ''''\n        )\n    )\n)",
 									"queryTimeout": "02:00:00",
 									"partitionOption": "None"
 								},
@@ -98,33 +99,26 @@
 							},
 							"inputs": [
 								{
-									"referenceName": "DS_SQL_INCREMENTAL",
-									"type": "DatasetReference",
-									"parameters": {
-										"TableSchema": {
-											"value": "@pipeline().parameters.TableSchema",
-											"type": "Expression"
-										},
-										"TableName": {
-											"value": "@pipeline().parameters.TableName",
-											"type": "Expression"
-										}
-									}
+									"referenceName": "DS_SQL_TABLES_INCLOAD",
+									"type": "DatasetReference"
 								}
 							],
 							"outputs": [
 								{
-									"referenceName": "DS_SQLTABLE_PARQUET",
-									"type": "DatasetReference"
+									"referenceName": "DS_SQL_ADLS_PARQUET",
+									"type": "DatasetReference",
+									"parameters": {
+										"TableName": "@pipeline().parameters.TableName"
+									}
 								}
 							]
 						},
 						{
-							"name": "Exe_UPDATER_WTRMRK",
+							"name": "EXE_UPTATED_WTR_MRK",
 							"type": "ExecutePipeline",
 							"dependsOn": [
 								{
-									"activity": "Copy_SQL_FULL_INCREMENTAL",
+									"activity": "COPYSQL_FULL_INCLOAD_TABLES",
 									"dependencyConditions": [
 										"Succeeded"
 									]
