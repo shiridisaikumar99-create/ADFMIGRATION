@@ -5,6 +5,11 @@
 			"referenceName": "DS_SQL_TABLE_PARQUET1",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"TableName": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "Parquet",
 		"typeProperties": {
