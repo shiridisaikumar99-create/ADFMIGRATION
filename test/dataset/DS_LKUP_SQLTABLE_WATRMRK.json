@@ -1,0 +1,12 @@
+{
+	"name": "DS_LKUP_SQLTABLE_WATRMRK",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_LKUP_SQLTABLE_WATRMRK",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	}
+}
