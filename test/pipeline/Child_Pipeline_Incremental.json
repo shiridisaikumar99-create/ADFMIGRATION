@@ -118,7 +118,13 @@
 							"outputs": [
 								{
 									"referenceName": "DS_SQL_TABLES_PARQUETFILES",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"TableName": {
+											"value": "@pipeline().parameters.TableName",
+											"type": "Expression"
+										}
+									}
 								}
 							]
 						},
