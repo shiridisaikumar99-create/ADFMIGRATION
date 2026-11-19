@@ -29,7 +29,16 @@
 		"DS_ADLS_PARQUET_accountKey": {
 			"value": ""
 		},
+		"DS_SQLTABLE_PARQUET_accountKey": {
+			"value": ""
+		},
 		"DS_SQL_SERVER_SP_password": {
+			"value": ""
+		},
+		"DS_SQL_TABLE_PARQUET1_accountKey": {
+			"value": ""
+		},
+		"DS_SQL_WTRMRK_password": {
 			"value": ""
 		},
 		"LS_ADLS_PARQUET_accountKey": {
@@ -44,6 +53,18 @@
 		"LS_CSV_TRIGGER_SCH_accountKey": {
 			"value": ""
 		},
+		"LS_LKUP_MAX_VALUE_password": {
+			"value": ""
+		},
+		"LS_LKUP_MAX_VALUE1_password": {
+			"value": ""
+		},
+		"LS_LKUP_SQLTABLE_WATRMRK_password": {
+			"value": ""
+		},
+		"LS_LKUP_SQL_WTRMRK_TBL_password": {
+			"value": ""
+		},
 		"LS_MULTIPLE_CSV_ADLS_accountKey": {
 			"value": ""
 		},
@@ -56,7 +77,19 @@
 		"LS_PL_BLOB_CSV_connectionString": {
 			"value": ""
 		},
+		"LS_SQL_ADLS_MIGRATION_password": {
+			"value": ""
+		},
+		"LS_SQL_ADLS_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SQL_INCREMENTAL_password": {
+			"value": ""
+		},
 		"LS_SQL_SERVER_password": {
+			"value": ""
+		},
+		"LS_SQL_TABLES_INCLOAD_password": {
 			"value": ""
 		},
 		"LS_SQL_adlsgen2_accountKey": {
@@ -72,6 +105,9 @@
 			"value": ""
 		},
 		"SqlServer4_password": {
+			"value": ""
+		},
+		"SqlServer5_password": {
 			"value": ""
 		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
@@ -98,6 +134,9 @@
 		"DS_ADLS_PARQUET_properties_typeProperties_url": {
 			"value": "https://sawalgadlsgen2.dfs.core.windows.net/"
 		},
+		"DS_SQLTABLE_PARQUET_properties_typeProperties_url": {
+			"value": "https://sawalgadlsgen2.dfs.core.windows.net/"
+		},
 		"DS_SQL_SERVER_SP_properties_typeProperties_server": {
 			"value": "SHIRIDISAI\\SQLEXPRESS"
 		},
@@ -105,6 +144,18 @@
 			"value": "AdventureWorksDW2022"
 		},
 		"DS_SQL_SERVER_SP_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"DS_SQL_TABLE_PARQUET1_properties_typeProperties_url": {
+			"value": "https://sawalgadlsgen2.dfs.core.windows.net/"
+		},
+		"DS_SQL_WTRMRK_properties_typeProperties_server": {
+			"value": "SHIRIDISAI\\SQLEXPRESS"
+		},
+		"DS_SQL_WTRMRK_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"DS_SQL_WTRMRK_properties_typeProperties_userName": {
 			"value": "sa"
 		},
 		"LS_ADLS_PARQUET_properties_typeProperties_url": {
@@ -115,6 +166,42 @@
 		},
 		"LS_CSV_TRIGGER_SCH_properties_typeProperties_url": {
 			"value": "https://adlsdevcsvtriggersch.dfs.core.windows.net/"
+		},
+		"LS_LKUP_MAX_VALUE_properties_typeProperties_server": {
+			"value": "SHIRIDISAI\\SQLEXPRESS"
+		},
+		"LS_LKUP_MAX_VALUE_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_LKUP_MAX_VALUE_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_LKUP_MAX_VALUE1_properties_typeProperties_server": {
+			"value": "SHIRIDISAI\\SQLEXPRESS"
+		},
+		"LS_LKUP_MAX_VALUE1_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_LKUP_MAX_VALUE1_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_LKUP_SQLTABLE_WATRMRK_properties_typeProperties_server": {
+			"value": "SHIRIDISAI\\SQLEXPRESS"
+		},
+		"LS_LKUP_SQLTABLE_WATRMRK_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_LKUP_SQLTABLE_WATRMRK_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_LKUP_SQL_WTRMRK_TBL_properties_typeProperties_server": {
+			"value": "SHIRIDISAI\\SQLEXPRESS"
+		},
+		"LS_LKUP_SQL_WTRMRK_TBL_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_LKUP_SQL_WTRMRK_TBL_properties_typeProperties_userName": {
+			"value": "sa"
 		},
 		"LS_MULTIPLE_CSV_ADLS_properties_typeProperties_url": {
 			"value": "https://sawalgadlsgen2.dfs.core.windows.net/"
@@ -128,6 +215,27 @@
 		"LS_REST_API_properties_typeProperties_url": {
 			"value": "https://retoolapi.dev/5yDVOt/data"
 		},
+		"LS_SQL_ADLS_MIGRATION_properties_typeProperties_server": {
+			"value": "SHIRIDISAI\\SQLEXPRESS"
+		},
+		"LS_SQL_ADLS_MIGRATION_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_SQL_ADLS_MIGRATION_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQL_ADLS_PARQUET_properties_typeProperties_url": {
+			"value": "https://sawalgadlsgen2.dfs.core.windows.net/"
+		},
+		"LS_SQL_INCREMENTAL_properties_typeProperties_server": {
+			"value": "SHIRIDISAI\\SQLEXPRESS"
+		},
+		"LS_SQL_INCREMENTAL_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_SQL_INCREMENTAL_properties_typeProperties_userName": {
+			"value": "sa"
+		},
 		"LS_SQL_SERVER_properties_typeProperties_server": {
 			"value": "SHIRIDISAI\\SQLEXPRESS"
 		},
@@ -135,6 +243,15 @@
 			"value": "AdventureWorksDW2022"
 		},
 		"LS_SQL_SERVER_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQL_TABLES_INCLOAD_properties_typeProperties_server": {
+			"value": "SHIRIDISAI\\SQLEXPRESS"
+		},
+		"LS_SQL_TABLES_INCLOAD_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_SQL_TABLES_INCLOAD_properties_typeProperties_userName": {
 			"value": "sa"
 		},
 		"LS_SQL_adlsgen2_properties_typeProperties_url": {
@@ -174,6 +291,15 @@
 			"value": "AdventureWorksDW2022"
 		},
 		"SqlServer4_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"SqlServer5_properties_typeProperties_server": {
+			"value": "SHIRIDISAI\\SQLEXPRESS"
+		},
+		"SqlServer5_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"SqlServer5_properties_typeProperties_userName": {
 			"value": "sa"
 		},
 		"containerUri": {
