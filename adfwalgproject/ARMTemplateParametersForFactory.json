@@ -29,6 +29,9 @@
 		"DS_ADLS_PARQUET_accountKey": {
 			"value": ""
 		},
+		"DS_SQLTABLES_PARQURT_accountKey": {
+			"value": ""
+		},
 		"DS_SQLTABLE_PARQUET_accountKey": {
 			"value": ""
 		},
@@ -39,6 +42,9 @@
 			"value": ""
 		},
 		"DS_SQL_WTRMRK_password": {
+			"value": ""
+		},
+		"DS__LKUP_MAX_VALUE_password": {
 			"value": ""
 		},
 		"LS_ADLS_PARQUET_accountKey": {
@@ -68,6 +74,9 @@
 		"LS_MULTIPLE_CSV_ADLS_accountKey": {
 			"value": ""
 		},
+		"LS_ONPREM_SQL_SERVER_password": {
+			"value": ""
+		},
 		"LS_PARQUET_ADLS_accountKey": {
 			"value": ""
 		},
@@ -90,6 +99,9 @@
 			"value": ""
 		},
 		"LS_SQL_TABLES_INCLOAD_password": {
+			"value": ""
+		},
+		"LS_SQL_TABLES_PARQUETFILES_accountKey": {
 			"value": ""
 		},
 		"LS_SQL_adlsgen2_accountKey": {
@@ -134,6 +146,9 @@
 		"DS_ADLS_PARQUET_properties_typeProperties_url": {
 			"value": "https://sawalgadlsgen2.dfs.core.windows.net/"
 		},
+		"DS_SQLTABLES_PARQURT_properties_typeProperties_url": {
+			"value": "https://sawalgadlsgen2.dfs.core.windows.net/"
+		},
 		"DS_SQLTABLE_PARQUET_properties_typeProperties_url": {
 			"value": "https://sawalgadlsgen2.dfs.core.windows.net/"
 		},
@@ -156,6 +171,15 @@
 			"value": "sqlmigration"
 		},
 		"DS_SQL_WTRMRK_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"DS__LKUP_MAX_VALUE_properties_typeProperties_server": {
+			"value": "SHIRIDISAI\\SQLEXPRESS"
+		},
+		"DS__LKUP_MAX_VALUE_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"DS__LKUP_MAX_VALUE_properties_typeProperties_userName": {
 			"value": "sa"
 		},
 		"LS_ADLS_PARQUET_properties_typeProperties_url": {
@@ -206,6 +230,15 @@
 		"LS_MULTIPLE_CSV_ADLS_properties_typeProperties_url": {
 			"value": "https://sawalgadlsgen2.dfs.core.windows.net/"
 		},
+		"LS_ONPREM_SQL_SERVER_properties_typeProperties_server": {
+			"value": "SHIRIDISAI\\SQLEXPRESS"
+		},
+		"LS_ONPREM_SQL_SERVER_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_ONPREM_SQL_SERVER_properties_typeProperties_userName": {
+			"value": "sa"
+		},
 		"LS_PARQUET_ADLS_properties_typeProperties_url": {
 			"value": "https://sawalgadlsgen2.dfs.core.windows.net/"
 		},
@@ -253,6 +286,9 @@
 		},
 		"LS_SQL_TABLES_INCLOAD_properties_typeProperties_userName": {
 			"value": "sa"
+		},
+		"LS_SQL_TABLES_PARQUETFILES_properties_typeProperties_url": {
+			"value": "https://sawalgadlsgen2.dfs.core.windows.net/"
 		},
 		"LS_SQL_adlsgen2_properties_typeProperties_url": {
 			"value": "https://sawalgadlsgen2.dfs.core.windows.net/"
